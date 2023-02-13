@@ -7,10 +7,10 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "26182594"))
+API_HASH = getenv("API_HASH", "6cc66c40892ca88e06ce86c1d43cd328")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5341310610:AAGmgpqv7Txg3qoNKYYXvhQV2B8m21-v7Z8")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://userbot:userbot@cluster0.x6kstu2.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001246079685"))
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQCet2SMKG8QHp-gC1E_Y1jUgHoBq94dXXpHjbeVPJ_KegDdSmY-codSg60cY9LSa06MIXRnVitemejt--nUwytA45k-xNuY9pLkXQ-omfwG_vp1yK7molofEogzZBpe5BJD4tLk5Z3RGPrDovEK0rSaAqoZAVYbY_yOv68IGaSansd0okvugVz4S47YWyhtUl6jHQZcbksJSZsmFQ-Rp3NMg5AMyzO_j7kZvpSiQ_aQgtqIKLWZ8zmgC6I8DrMaY3wgDdZsBp-TiKKlsJIo6nreGLetLc_mGxyapbr45PVWWnIqeoQhSkI6ySs6V1IpX5sgC2ut_Fi5kYAxxerKPUgaAAAAAU9IZ6AA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
