@@ -18,6 +18,7 @@ pyyaml
 requests
 spotipy
 tgcrypto
+yt-dlp
 numpy
 youtube-search
 youtube-search-python
