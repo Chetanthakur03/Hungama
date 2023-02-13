@@ -20,6 +20,6 @@ git+https://github.com/vivekraj124w/oktest
 spotipy
 tgcrypto
 numpy
-yt-dlp
+git+https://github.com/vivekraj124w/noic
 youtube-search
 youtube-search-python
