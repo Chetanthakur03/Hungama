@@ -16,10 +16,8 @@ pyrogram==1.4.16
 python-dotenv
 pyyaml
 requests
-speedtest-cli
 spotipy
 tgcrypto
 numpy
-yt-dlp
 youtube-search
 youtube-search-python
