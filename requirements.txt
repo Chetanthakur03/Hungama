@@ -16,7 +16,7 @@ pyrogram==1.4.16
 python-dotenv
 pyyaml
 requests
-speedtest-cli
+git+https://github.com/vivekraj124w/oktest
 spotipy
 tgcrypto
 numpy
