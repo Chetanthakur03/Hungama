@@ -64,7 +64,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/NOOBCREATOR")
+                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/The_Alpha_X_help")
         ],
         [
             InlineKeyboardButton(
@@ -117,7 +117,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/NOOBCREATOR"
+                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/The_Alpha_X_help"
             )
         ],
         [
@@ -370,7 +370,7 @@ def queue_markup(_, videoid, chat_id):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/NOOBCREATOR"
+                text="✯ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"https://t.me/The_Alpha_X_help"
             )
         ],
         [
