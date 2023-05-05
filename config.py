@@ -7,26 +7,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "23678164"))
-API_HASH = getenv("API_HASH", "69d69eb8a4f8619d6fc9ddd80243c5f8")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "6086035101:AAEfTbqGZxb2pgIe6PJ6Bv2XgdrkkUypkd0")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Alok:alok@cluster0.fmaldbv.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001812541943"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Alpha Robot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5161032951").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AlphaXstarz/Sawan")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AlphaXstarz/Hungama")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/The_Alpha_X_help")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Alpha_X_supports")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/rapstar_x3_kitty")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/rapstar_x3_kitty")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -58,7 +58,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", "BQCXmIlZLtT-jphgg-jj2OGroceGlkjDMubS_vMVTOdHtwLTvrbJItsSIezGXZiymicrgGF5jR-du2wU8WkQvOBdThyz5bxughEdyfoJLsFeoetnff27mYw5PIn7pIJoIZfH1vzSqQFovGHnkp4oZuau3TLgiyyrASw_VFsl2QIsqkWWw6Al5McTJfv0mUgkFcLHUETK8oKNUVr9jx4d-KrvWkMMB41RY8UbROZTBHEIvPL3-7iMVZFSTA1sLK09gDO27cm5cJNrSxqNGfEFpoLNuULaIUe3kS6bzwYeYvfxUxVJv5yRqrPOUhjBeMVjhF4q4DZ8CiBQ6wFz3J6WGEFaAAAAAUv9mG0A")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -76,28 +76,28 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/95d40f0224268dbe7287f.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/b155c064bb8d75eab3969.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg",
+    "https://te.legra.ph/file/fb33a8872cfe5638475e7.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/fb33a8872cfe5638475e7.jpg"
 
-GLOBAL_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+GLOBAL_IMG_URL = "https://te.legra.ph/file/b155c064bb8d75eab3969.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/fb33a8872cfe5638475e7.jpg"
 
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/b155c064bb8d75eab3969.jpg"
 
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/fb33a8872cfe5638475e7.jpg"
 
-STREAM_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/b155c064bb8d75eab3969.jpg"
 
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/fb33a8872cfe5638475e7.jpg"
 
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/fb33a8872cfe5638475e7.jpg"
 
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
 
@@ -130,9 +130,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/fb33a8872cfe5638475e7.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/73aee88ae407cfd6d6024.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/fb33a8872cfe5638475e7.jpg"
