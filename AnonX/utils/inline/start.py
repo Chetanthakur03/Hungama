@@ -25,7 +25,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/The_Alpha_X_help"),
+                text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/rapstar_x3_kitty"),
             InlineKeyboardButton(
                 text="✯ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"{config.SUPPORT_GROUP}"
             ),
@@ -34,7 +34,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     return buttons
 
 
-def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/DJ_x_d"):
+def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "tg://settingssetting"):
     buttons = [
         [
             InlineKeyboardButton(
@@ -48,14 +48,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/DJ_x_
             ),
         ],
         [
-            InlineKeyboardButton(text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/The_Alpha_X_help"),
+            InlineKeyboardButton(text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/rapstar_x3_kitty")
+
             InlineKeyboardButton(
                 text="✯ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="✯ ɢɪғᴛ ʜᴇʀᴇ ✯", url=f"https://t.me/DJ_x_d"
+                    text="🥀 ᴍᴀɪɴᴛᴀɪɴᴇʀ 🥀", url=f"https://t.me/rapstar_on_fire"
                 )
         ],
      ]
