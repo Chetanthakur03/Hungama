@@ -25,7 +25,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/NOOBXCREATOR"),
+                text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/rapstar_x3_kitty"),
             InlineKeyboardButton(
                 text="✯ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"{config.SUPPORT_GROUP}"
             ),
@@ -34,7 +34,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     return buttons
 
 
-def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/pirokid"):
+def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/NooBpy"):
     buttons = [
         [
             InlineKeyboardButton(
@@ -48,14 +48,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = "https://t.me/pirok
             ),
         ],
         [
-            InlineKeyboardButton(text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/NOOBXCREATOR"),
+            InlineKeyboardButton(text="✯ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✯", url=f"https://t.me/rapstar_x3_kitty"),
             InlineKeyboardButton(
                 text="✯ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ✯", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="✯ ɢɪғᴛ ʜᴇʀᴇ ✯", url=f"https://t.me/pirokid"
+                    text="🌹 ᴍᴀɪɴᴛᴀɴᴇʀ 🌹", url=f"https://t.me/rapstar_on_fire"
                 )
         ],
      ]
